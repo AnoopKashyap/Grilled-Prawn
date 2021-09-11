@@ -26,9 +26,9 @@
         <img src="./assets/recipe3.png" class="img_cls" />
         <div class="column_2">
           <div style="margin-left: 10px;">
-            <p style="font-size: smaller; color: white;">LATEST RECIPE</p>
+            <p class="white_font">LATEST RECIPE</p>
             <h2 style="text-transform: uppercase; color: white;">Baked Polenta with cheese and mushrooms.</h2>
-            <p style="font-size: smaller; color: white; margin-bottom: 20px;">
+            <p class="white_font" style="margin-bottom: 20px;">
               Polenta, goat cheese, Italian sausage and cremini mushrooms. All together this will make for pretty dam good side dish to a lovely salad. Go for it.
             </p>
 
@@ -37,20 +37,257 @@
         </div>
       </div>
 
-      <!-- Recepies -->
+      <!-- Recipes -->
       <div style="width: 100%; height: 1000px; margin-bottom: 20px; background-color: #f6f6f6">
         <div style="margin: 40px;">
           <h2 style="position: relative; top: 30px; padding-bottom: 30px;">Our Recipes</h2>
-          <div style="width: 100%; background-color: blue">
-            Filter
+
+          <div class="row">
+            <div class="white_font red_box" style="float: left; width: 20%; font-weight: bold; padding: 12px;">
+              Filter recipes by <span style="margin-left: 40px; font-weight: bold">&minus;</span>
+            </div>
+
+            <div style="float: left; background-color: white; width: 80%; font-weight: bold;">
+              <span class="white_font" style="color: gray; margin: 0 10px 0 30px;">Sort by</span>
+              <button class="button_attr" style="border: solid 1px gray; height: 30px;">Newest First &nbsp; &or;</button>
+              <input type="text" class="text_box" style="float: right" placeholder="&#128269; Search recipe"/>
+            </div>
+          </div>
+
+          <div class="red_box" style="width: 100%; height: 220px;">
+            
+            <div class="recipe_col" style="margin-top: 10px;">
+              <div class="white_font" style="font-weight: bold; padding: 10px;">Food Type:</div>
+              
+              <label class="container white_font">Appetisers
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Mains
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Desserts
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Special Occasions
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="recipe_col" style="margin-top: 15px;">
+              <div class="white_font" style="font-weight: bold; padding: 10px;">Nationality:</div>
+              <label class="container white_font">Italian(34)
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">French(20)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Spanish(8)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">American(7)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="recipe_col" style="margin-top: 50px;">
+              <label class="container white_font">Chinese(40)
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Indian(100)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Thai(8)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">European(3)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="recipe_col" style="margin-top: 50px;">
+              <label class="container white_font">Polish(2)
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Danish(3)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Belgian(8)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container white_font">Persian(6)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Recepie List -->
+          <div class="row" style="width: 100%; height: 500px;">
+            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
+              <div style="font-size: smaller;">5th march 2020
+                <span class="font-size: smaller; float: right">Thai</span>
+              </div>
+              <div>Thai yellow noodles with shitake mushrooms</div>
+              <img src="./assets/recipe1.jpg" style="width: 150px; height: 150px; object-fit: contain;"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
+              <div style="font-size: smaller;">5th march 2020
+                <span class="font-size: smaller; float: right">Thai</span>
+              </div>
+              <div>Thai yellow noodles with shitake mushrooms</div>
+              <img src="./assets/recipe2.png" style="width: 150px; height: 150px; object-fit: contain;"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
+              <div style="font-size: smaller;">5th march 2020
+                <span class="font-size: smaller; float: right">Thai</span>
+              </div>
+              <div>Thai yellow noodles with shitake mushrooms</div>
+              <img src="./assets/recipe3.png" style="width: 150px; height: 150px; object-fit: contain;"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
+              <div style="font-size: smaller;">5th march 2020
+                <span class="font-size: smaller; float: right">Thai</span>
+              </div>
+              <div>Thai yellow noodles with shitake mushrooms</div>
+              <img src="./assets/recipe4.png" style="width: 150px; height: 150px; object-fit: contain;"/>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Recepie List -->
-
+      
       <!-- News letter -->
+      <div style="width: 100%; height: 500px; background-color: #ea474c;">
+        <div style="margin: 30px; position: relative; top: 40px">
+          <h2 style="color: white;">Spread the word!</h2>
+          <p class="white_font" style="margin-bottom: 30px;">Our recipes are awesome, sign up to our newsletter and <br/> invite friends to join the grilled prawn cult.</p>
 
+          <div id="remove_field">
+           
+          </div>
+
+          <br/>
+          <div class="add_field">
+            <div style="display: inline-block;" class="recipe_col">
+              <label for="friends_name" style="display: block; margin-bottom: 5px;" class="white_font">Name</label>
+              <input type="text" class="text_box" name="friends_name" id="friends_name" />
+            </div>
+
+            <div style="display: inline-block;" class="recipe_col">
+              <label for="friend_surname" style="display: block; margin-bottom: 5px;" class="white_font">Surname</label>
+              <input type="text" class="text_box" name="friend_surname" id="friend_surname" />
+            </div>
+            
+            <div style="display: inline-block;" class="recipe_col">
+              <label for="friend_email" style="display: block; margin-bottom: 5px;" class="white_font">Email address</label>
+              <input type="email" class="text_box" name="friend_email" id="friend_email" />
+            </div>
+
+            <div style="display: inline-block;" class="recipe_col">
+              <button onclick="handleAdd()" class="button_attr" style="margin-top: 20px">Add Friend</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      
       <!-- Footer -->
     </div>
+
+    <script type="text/javascript">
+      function handleAdd() {
+        let allElements = document.getElementById("remove_field");
+        let rem_id = allElements.getElementsByTagName("input").length;
+
+        let friend_name = document.getElementById("friends_name").value;
+        let friend_surname = document.getElementById("friend_surname").value;
+        let friend_email = document.getElementById("friend_email").value;
+
+        rem_id++;
+        
+        //create textbox for name
+        let input_name = document.createElement('input');
+        input_name.type = "text";
+        input_name.setAttribute("class", "text_box");
+        input_name.setAttribute("style", "margin: 0 145px 20px 0");
+        input_name.setAttribute('id', 'rem_' + rem_id);
+        input_name.setAttribute('value', friend_name);
+
+        //create textbox for surname
+        let input_surname = document.createElement('input');
+        input_surname.type = "text";
+        input_surname.setAttribute("class", "text_box");
+        input_surname.setAttribute("style", "margin: 0 145px 20px 0");
+        input_surname.setAttribute('id', 'rem_' + rem_id);
+        input_surname.setAttribute('value', friend_surname);
+
+        //create textbox for email
+        let input_email = document.createElement('input');
+        input_email.type = "email";
+        input_email.setAttribute("class", "text_box");
+        input_email.setAttribute("style", "margin: 0 145px 20px 0");
+        input_email.setAttribute('id', 'rem_' + rem_id);
+        input_email.setAttribute('value', friend_email);
+
+        //create remove button
+        let remove = document.createElement('button');
+        remove.setAttribute('id', 'rem_' + rem_id);
+        remove.onclick = function(e) {
+          removeElement(e);
+        };
+
+        remove.setAttribute("type", "button");
+        remove.innerHTML = "Remove";
+
+        let rem_field = document.getElementById("remove_field");
+
+        //append elements
+        rem_field.appendChild(input_name);
+        rem_field.appendChild(input_surname);
+        rem_field.appendChild(input_email);
+        rem_field.appendChild(remove);
+        let br = document.createElement("br");
+        rem_field.appendChild(br);
+
+        document.getElementById("friends_name").value = "";
+        document.getElementById("friend_surname").value = "";
+        document.getElementById("friend_email").value = "";
+      }
+
+      function removeElement(e) {
+        let button = e.target;
+        let input_email = button.previousSibling;
+        let input_surname = input_email.previousSibling;
+        let input_name = input_surname.previousSibling;
+
+        let div = button.parentElement;
+        let br = button.nextSibling;
+
+        div.removeChild(button);
+        div.removeChild(input_email);
+        div.removeChild(input_surname);
+        div.removeChild(input_name);
+        div.removeChild(br);
+      }
+
+    </script>
   </body>
 </html>
