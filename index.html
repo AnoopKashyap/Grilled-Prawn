@@ -38,13 +38,13 @@
       </div>
 
       <!-- Recipes -->
-      <div style="width: 100%; height: 1000px; margin-bottom: 20px; background-color: #f6f6f6">
+      <div class="recipe_section">
         <div style="margin: 40px;">
-          <h2 style="position: relative; top: 30px; padding-bottom: 30px;">Our Recipes</h2>
+          <h2 class="recipe_title">Our Recipes</h2>
 
           <div class="row">
-            <div class="white_font red_box" style="float: left; width: 20%; font-weight: bold; padding: 12px;">
-              Filter recipes by <span style="margin-left: 40px; font-weight: bold">&minus;</span>
+            <div class="white_font red_box filter_wrapper">
+              Filter recipes by <span class="filter_minus">&minus;</span>
             </div>
 
             <div style="float: left; background-color: white; width: 80%; font-weight: bold;">
@@ -137,50 +137,122 @@
           </div>
 
           <!-- Recepie List -->
-          <div class="row" style="width: 100%; height: 500px;">
-            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
-              <div style="font-size: smaller;">5th march 2020
-                <span class="font-size: smaller; float: right">Thai</span>
+          <!-- Row 1 -->
+          <div class="row" style="width: 100%; margin-top: 20px">
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">5th march 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
               </div>
-              <div>Thai yellow noodles with shitake mushrooms</div>
-              <img src="./assets/recipe1.jpg" style="width: 150px; height: 150px; object-fit: contain;"/>
+              <div style="margin: 10px 5px">Thai Yellow Noodles with Shitake Mushrooms</div>
+              <img src="./assets/recipe1.jpg" class="recipe_img" />
             </div>
 
-            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
-              <div style="font-size: smaller;">5th march 2020
-                <span class="font-size: smaller; float: right">Thai</span>
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">15th may 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Italian</span>
               </div>
-              <div>Thai yellow noodles with shitake mushrooms</div>
-              <img src="./assets/recipe2.png" style="width: 150px; height: 150px; object-fit: contain;"/>
+              <div style="margin: 10px 5px">Capelli with Cherry Tomatoes and Fresh Basil</div>
+              <img src="./assets/recipe2.png" class="recipe_img"/>
             </div>
 
-            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
-              <div style="font-size: smaller;">5th march 2020
-                <span class="font-size: smaller; float: right">Thai</span>
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">2nd june 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
               </div>
-              <div>Thai yellow noodles with shitake mushrooms</div>
-              <img src="./assets/recipe3.png" style="width: 150px; height: 150px; object-fit: contain;"/>
+              <div style="margin: 10px 5px">Baked Turkey Sausage and Mascarpone Stuffed Shells</div>
+              <img src="./assets/recipe3.png" class="recipe_img"/>
             </div>
 
-            <div class="recipe_col" style="margin: 10px 0 0 10px; width: 23%">
-              <div style="font-size: smaller;">5th march 2020
-                <span class="font-size: smaller; float: right">Thai</span>
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">17th may 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Italian</span>
               </div>
-              <div>Thai yellow noodles with shitake mushrooms</div>
-              <img src="./assets/recipe4.png" style="width: 150px; height: 150px; object-fit: contain;"/>
+              <div style="margin: 10px 5px">Caramalised Apple and Herb Fiocchi</div>
+              <img src="./assets/recipe4.png" class="recipe_img"/>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="row" style="width: 100%;">
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">5th april 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
+              </div>
+              <div style="margin: 10px 5px">Pumpkin Beer Cheese Soup</div>
+              <img src="./assets/recipe5.png" class="recipe_img"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">5th may 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">French</span>
+              </div>
+              <div style="margin: 10px 5px">Yum Woon Sen with Shrimp</div>
+              <img src="./assets/recipe6.png" class="recipe_img"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">12th june 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
+              </div>
+              <div style="margin: 10px 5px">Beef Satay</div>
+              <img src="./assets/recipe7.png" class="recipe_img"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">8th july 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">French</span>
+              </div>
+              <div style="margin: 10px 5px">Bocadillo Bites</div>
+              <img src="./assets/recipe8.png" class="recipe_img"/>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+
+          <div class="row" style="width: 100%;">
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">5th august 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
+              </div>
+              <div style="margin: 10px 5px">Paella</div>
+              <img src="./assets/recipe9.png" class="recipe_img"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">2nd may 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
+              </div>
+              <div style="margin: 10px 5px">Spicy Black Bean Burger</div>
+              <img src="./assets/recipe10.png" class="recipe_img"/>
+            </div>
+
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%; background-color: white;">
+              <div class="recipe_card_title">3rd april 2016
+                <span class="recipe_card_title" style="margin-left: 120px;">Thai</span>
+              </div>
+              <div style="margin: 10px 5px">Fresh Fig and Pistachio Salad</div>
+              <img src="./assets/recipe11.png" class="recipe_img"/>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="row" style="width: 100%">
+            <div class="recipe_col" style="margin: 10px 40px 10px 10px; width: 20%;">
+              <p style="color: red">Return to top </p>
             </div>
           </div>
         </div>
       </div>
       
       <!-- News letter -->
-      <div style="width: 100%; height: 500px; background-color: #ea474c;">
+
+      <div style="width: 100%; height: 350px; overflow-y: auto; background-color: #ea474c;">
         <div style="margin: 30px; position: relative; top: 40px">
           <h2 style="color: white;">Spread the word!</h2>
           <p class="white_font" style="margin-bottom: 30px;">Our recipes are awesome, sign up to our newsletter and <br/> invite friends to join the grilled prawn cult.</p>
 
           <div id="remove_field">
-           
+            
           </div>
 
           <br/>
@@ -206,10 +278,60 @@
 
           </div>
 
+          <div class="send_btn">
+            <button class="button_attr send_btn">Send &#8594;</button>
+          </div>
+
         </div>
       </div>
       
       <!-- Footer -->
+      <div class="row" style="margin-top: 20px;">
+        <div style="float: left; width: 20%; height: 300px;">
+          <p class="p_title">Our Recipes</p>
+
+          <p class="p_para">All our recipes are thoroughly tested by us to make sure that they’re suitable for your kitchen at home. We know many of you are concerned about healthy eating, so we send them to a qualified nutritionist for thorough analysis too.</p>
+
+          <p class="p_link">Browse our recipes now</p>
+        </div>
+
+        <div style="float: left; width: 20%; height: 300px;">
+          <p class="p_title">Grilled Prawn’s History</p>
+
+          <p class="p_para">The Grilled Prawn is a fictional food blog created in January 2015.</p>
+        </div>
+
+        <div style="float: left; width: 20%; height: 300px;">
+          <p class="p_title">Tips and Tricks</p>
+
+          <p class="p_para">Not sure how to do something? Don’t panic we have plenty of tutorials for you.</p>
+
+          <p class="p_link">Learn more</p>
+        </div>
+
+        <div style="float: left; width: 20%; height: 300px;">
+
+          <p class="p_title">Help and Contact</p>
+
+          <p class="p_para">Struggling with one of the recipes?</p>
+          <p class="p_link">Send us an email.</p>
+
+          <p class="p_para">We are always happy to try new things, send us your suggestions!</p>
+
+          <p class="p_link">Fill in the form</p>
+
+        </div>
+
+        <div style="float: left; width: 20%; height: 300px;">
+          <p class="p_para">The Grilled Prawn</p>
+
+          <p class="p_para">Lorem ipsum dolor sit smet, consectetur adipiscing elit. Sed imperdiet, lectus quis interdum viverra, erat mi consectetur mi, a fringrilla odio risus vel augue. Moris tempor ligula fringrilla magna iaculis, nom vulputate tellus interdum.</p>
+
+
+          <p class="p_para">The images and recipes ideas were taken from spoonforkbacon.com and the icons from Google material icons.</p>
+
+        </div>
+      </div>
     </div>
 
     <script type="text/javascript">
