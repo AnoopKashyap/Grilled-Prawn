@@ -19,15 +19,15 @@ Project Link: https://github.com/AnoopKashyap/Grilled-Prawn/tree/master
 
 ## For Users not having git installed in the system (Windows)
 
-  01. Download the project(in zip) from the project link present under the code dropdown as shown in the screenshot attached.
+  01. Download the project(in zip) from the project link present under the code dropdown in github.
 
   02. Extract the files and open index.html in chrome browser.
 
 
 ## Responsive details
 
-The web page is designed and tested with respect to the chrome browser and is made responsive for ipad pro and with respect to some of the laptop/Desktop resolutions.
-The task of making it responsive with respect to the mobile phone is in progress.
+The web page is designed and tested with respect to the chrome browser and is made responsive for ipad pro and with some of the laptop/Desktop resolutions.
+The task of making it responsive with respect to the mobile phone screen is in progress.
 
 
 ## Limitations:

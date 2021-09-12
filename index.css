@@ -141,7 +141,7 @@ body { font-family: Arial; }
 /*Checkbox end*/
 
 /* Responsive designs  */
-/* ipad pro responsive (1024*1366) */ /* Working */
+/* ipad pro responsive (1024*1366) */
 @media screen and (max-width: 1024px) {
   .filter_minus { margin-left: 30px; font-weight: bold }
   .list-a { padding: 0px; margin: 0 0 0 50px; }
