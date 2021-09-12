@@ -258,22 +258,22 @@
 
           <br/>
           <div class="add_field">
-            <div style="display: inline-block;" class="recipe_col">
+            <div class="news_layout">
               <label for="friends_name" style="display: block; margin-bottom: 5px;" class="white_font">Name</label>
               <input type="text" class="text_box" name="friends_name" id="friends_name" />
             </div>
 
-            <div style="display: inline-block;" class="recipe_col">
+            <div class="news_layout">
               <label for="friend_surname" style="display: block; margin-bottom: 5px;" class="white_font">Surname</label>
               <input type="text" class="text_box" name="friend_surname" id="friend_surname" />
             </div>
             
-            <div style="display: inline-block;" class="recipe_col">
+            <div class="news_layout">
               <label for="friend_email" style="display: block; margin-bottom: 5px;" class="white_font">Email address</label>
               <input type="email" class="text_box" name="friend_email" id="friend_email" />
             </div>
 
-            <div style="display: inline-block;" class="recipe_col">
+            <div class="news_layout">
               <button onclick="handleAdd()" class="button_attr"
               style="margin-top: 20px; color: white; background-color: #ea474c;">Add Friend</button>
             </div>
@@ -346,12 +346,12 @@
         let friend_email = document.getElementById("friend_email").value;
 
         rem_id++;
-        
+
         //create textbox for name
         let input_name = document.createElement('input');
         input_name.type = "text";
         input_name.setAttribute("class", "text_box");
-        input_name.setAttribute("style", "margin: 0 140px 20px 0");
+        input_name.setAttribute("style", "margin: 0 11% 20px 0");
         input_name.setAttribute('id', 'rem_' + rem_id);
         input_name.setAttribute('value', friend_name);
 
@@ -359,7 +359,7 @@
         let input_surname = document.createElement('input');
         input_surname.type = "text";
         input_surname.setAttribute("class", "text_box");
-        input_surname.setAttribute("style", "margin: 0 140px 20px 0");
+        input_surname.setAttribute("style", "margin: 0 11% 20px 0");
         input_surname.setAttribute('id', 'rem_' + rem_id);
         input_surname.setAttribute('value', friend_surname);
 
@@ -367,7 +367,7 @@
         let input_email = document.createElement('input');
         input_email.type = "email";
         input_email.setAttribute("class", "text_box");
-        input_email.setAttribute("style", "margin: 0 140px 20px 0");
+        input_email.setAttribute("style", "margin: 0 11% 20px 0");
         input_email.setAttribute('id', 'rem_' + rem_id);
         input_email.setAttribute('value', friend_email);
 
