@@ -44,7 +44,7 @@ body { font-family: Arial; }
 
 .recipe_col { float: left; width: 25%; }
 
-.recipe_list { float: left; margin: 10px 40px 10px 10px; width: 20%; background-color: white; }
+.recipe_list { float: left; margin: 10px 20px 10px 10px; width: 250px; background-color: white; }
 
 .send_btn { margin: 40px 0 0 300px; }
 
@@ -146,11 +146,10 @@ body { font-family: Arial; }
   .filter_minus { margin-left: 30px; font-weight: bold }
   .list-a { padding: 0px; margin: 0 0 0 50px; }
   .send_btn { margin: 40px 0 0 170px; }
-  .recipe_list { margin: 10px 20px 10px 10px; width: 250px; }
+  .recipe_list { margin: 10px 20px 10px 10px; width: 260px; }
   .recipe_card_title { width: 250px; }
   .recipe_section { height: 1700px; background-color: #f6f6f6 }
 }
-
 
 /* ipad responsive (768*1024) */
 @media screen and (max-width: 768px) {

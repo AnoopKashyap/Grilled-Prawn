@@ -19,7 +19,7 @@ Project Link: https://github.com/AnoopKashyap/Grilled-Prawn/tree/master
 
 ## For Users not having git installed in the system (Windows)
 
-  01. Download the project(in zip) from the project link present under the code dropdown in github.
+  01. Download the project(in zip) from the project link given.
 
   02. Extract the files and open index.html in chrome browser.
 
