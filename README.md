@@ -26,7 +26,7 @@ Project Link: https://github.com/AnoopKashyap/Grilled-Prawn/tree/master
 
 ## Responsive details
 
-The web page is designed and tested with respect to the chrome browser and is made responsive for ipad pro and with some of the laptop/Desktop resolutions.
+The web page is designed and tested with respect to the chrome browser and is made responsive for ipad, ipad pro and with some of the laptop/Desktop resolutions.
 The task of making it responsive with respect to the mobile phone screen is in progress.
 
 
